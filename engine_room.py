@@ -73,3 +73,15 @@ print(3 >= 3)
 print(3 >= 2)
  
 print(3 <= 2)
+
+#basic code
+
+fruit = "Mango"
+quantity = 20
+weight = "10kgs"
+is_fruit = True
+
+print(fruit)
+print(quantity)
+print(weight)
+print(is_fruit)
