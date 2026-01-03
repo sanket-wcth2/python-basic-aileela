@@ -21,3 +21,19 @@ class Student:
 
 stud = Student() #obj
 stud.display() #calls obj
+
+#inheritance
+
+# Parent class
+class Animal:
+    def speak(self):
+        print("Animal makes a sound")
+
+# Child class
+class Dog(Animal):
+    def bark(self):
+        print("Dog barks")
+
+d = Dog() #obj child
+d.speak() #call parent
+d.bark() #call child
